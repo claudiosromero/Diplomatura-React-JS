@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+h1 {
+    background-color: lightyellow;
+    padding: 14px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: mediumslateblue;
+    border-radius: 25px;
+}
+
+.datos {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.datos__texto {
+    color: darkviolet;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+.datos__img img {
+    width: 800px;
+    border-radius: 25px;
+    border: solid;
+    border-color: lightskyblue;
+}
+
+.tv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tv__series h3 {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: x-large;
+}
+
+.tv__series {
+    background-color: palegreen;
+    margin: 14px;
+    width: 500px;
+    border-radius: 25px;
+    transition: 0.7s;
+    border: solid;
+    border-color: lightskyblue;
+
+}
+
+.tv ul :hover {
+    transform: scale(1.5);
+    color: darkturquoise;
+    border-radius: 25px;
+
+}
+
+.tv__peliculas h3 {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: x-large;
+}
+
+.tv__peliculas {
+    background-color: palegreen;
+    margin: 14px;
+    width: 500px;
+    border-radius: 25px;
+    transition: 0.7s;
+    border: solid;
+    border-color: lightskyblue;
+
+
+}
+
+
+
+
+ul {
+    list-style: none;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+.perfil h2 {
+    padding: 14px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: mediumslateblue;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    margin: 4px;
+    padding: 1px;
+}
+
+.perfil {
+    background-color: lightyellow;
+    font-size: x-large;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.perfil__1 {
+    color: mediumslateblue;
+
+
+}
+
+.perfil__2 {
+    color: mediumslateblue;
+
+}
+
+.perfil__3 {
+    color: mediumslateblue;
+
+}
+
+.formulario h2 {
+    background-color: palegreen;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: mediumslateblue;
+    border-radius: 25px;
+}

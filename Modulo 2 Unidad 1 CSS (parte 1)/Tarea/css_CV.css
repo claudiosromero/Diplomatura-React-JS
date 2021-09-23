@@ -1,0 +1,147 @@
+* {    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+h1 {
+    background-color: lightyellow;
+    padding: 14px;
+    display: block;
+    color: mediumslateblue;
+    border-radius: 25px;
+}
+
+.datos {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.datos__texto {
+    color: darkviolet;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+.datos__img img {
+    width: 800px;
+    border-radius: 25px;
+    border: solid;
+    border-color: lightskyblue;
+}
+
+.tv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tv__series h3 {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: x-large;
+}
+
+.tv__series {
+    background: linear-gradient(to bottom, palegreen, white);
+    margin: 14px;
+    width: 500px;
+    border-radius: 25px;
+    transition: 0.7s;
+    border: solid;
+    border-color: lightskyblue;
+
+}
+
+.tv ul :hover {
+    transform: scale(1.5);
+    color: darkturquoise;
+    border-radius: 25px;
+
+}
+
+.tv__peliculas h3 {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: x-large;
+}
+
+.tv__peliculas {
+    background: linear-gradient(to bottom, palegreen, white);
+    margin: 14px;
+    width: 500px;
+    border-radius: 25px;
+    transition: 0.7s;
+    border: solid;
+    border-color: lightskyblue;
+
+
+}
+
+
+
+
+ul {
+    list-style: none;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+.perfil h2 {
+    padding: 5px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: mediumslateblue;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    column-count: 2;
+    column-gap: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.perfil {
+    background-color: lightyellow;
+    font-size: x-large;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.perfil__1 {
+    color: mediumslateblue;
+
+
+}
+
+.perfil__2 {
+    color: mediumslateblue;
+
+}
+
+.perfil__3 {
+    color: mediumslateblue;
+
+}
+
+footer {
+    width: 98.2%;
+    position: absolute;
+    bottom: 5px;
+    background: linear-gradient(to bottom, palegreen, white);
+    padding: 10px;
+    color: mediumslateblue;
+    border-radius: 25px;
+    font-style: italic;
+}

@@ -1,0 +1,293 @@
+* {    
+    font-family: "Indie Flower", cursive;
+    
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+h1 {
+    background-color: lightyellow;
+    padding: 14px;
+    display: block;
+    color: mediumslateblue;
+    border-radius: 25px;
+    
+}
+
+.datos {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.datos__texto {
+    color: darkviolet;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+.datos__img img {
+    width: 800px;
+    border-radius: 25px;
+    border: solid;
+    border-color: lightskyblue;
+    
+}
+
+.tv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tv__series h3 {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: x-large;
+}
+
+.tv__series {
+    background: linear-gradient(to bottom, palegreen, white);
+    box-shadow: 1px 1px 9px 4px rgba(0,0,0,0.75);
+    margin: 14px;
+    width: 500px;
+    border-radius: 25px;
+    transition: 0.7s;
+    border: solid;
+    border-color: lightskyblue;
+
+}
+
+.tv ul :hover {
+    transform: scale(1.5);
+    color: darkturquoise;
+    border-radius: 25px;
+
+}
+
+.tv__peliculas h3 {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: x-large;
+}
+
+.tv__peliculas {
+    background: linear-gradient(to bottom, palegreen, white);
+    box-shadow: 1px 1px 9px 4px rgba(0,0,0,0.75);
+    margin: 14px;
+    width: 500px;
+    border-radius: 25px;
+    transition: 0.7s;
+    border: solid;
+    border-color: lightskyblue;
+}
+
+ul {
+    list-style: none;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+.perfil h2 {
+    padding: 5px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: mediumslateblue;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+
+.perfil {
+    background-color: lightyellow;
+    font-size: x-large;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.perfil__1 {
+    
+    color: mediumslateblue;
+}
+
+
+
+footer {
+    width: 98.2%;
+    position: absolute;
+    bottom: 5px;
+    background: linear-gradient(to bottom, palegreen, white);
+    padding: 10px;
+    color: mediumslateblue;
+    border-radius: 25px;
+    font-style: italic;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+
+    * {    
+        font-family: "Indie Flower", cursive;
+        
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        width: 100%;
+        background-color: lightyellow;
+        display: block;
+        color: mediumslateblue;
+        border-radius: 0px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .datos {
+        width: 100%;
+        display: flex;
+        margin-bottom: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .datos__texto {
+        color: darkviolet;
+        width: 100%;
+        text-align: center;
+        font-size: small;
+        font-style: italic;
+    
+    }
+
+    .datos h2 {
+        margin: 0%;
+    }
+    
+    .datos__img img {
+        width: 100%;
+        border-radius: 0;
+        border: none;
+        border-color: lightskyblue;
+        
+    }
+    
+    .tv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+    
+    }
+    
+    .tv__series h3 {
+        margin: 0%;
+        text-align: center;
+        color: mediumslateblue;
+        font-size: small;
+    }
+    
+    .tv__series {
+        background: linear-gradient(to bottom, palegreen, white);
+        box-shadow: 1px 1px 9px 4px rgba(0,0,0,0.75);
+        margin: 14px;
+        width: 500px;
+        border-radius: 25px;
+        transition: 0.7s;
+        border: solid;
+        border-color: lightskyblue;
+    
+    }
+    
+    .tv ul :hover {
+        transform: scale(1.5);
+        color: darkturquoise;
+        border-radius: 25px;
+    
+    }
+    
+    .tv__peliculas h3 {
+        margin: 0%;
+        text-align: center;
+        color: mediumslateblue;
+        font-size: small;
+    }
+    
+    .tv__peliculas {
+        background: linear-gradient(to bottom, palegreen, white);
+        box-shadow: 1px 1px 9px 4px rgba(0,0,0,0.75);
+        margin: 14px;
+        border-radius: 25px;
+        transition: 0.7s;
+        border: solid;
+        border-color: lightskyblue;
+    }
+    
+    ul {
+        list-style: none;
+        font-style: italic;
+        font-size: small;
+        text-align: left;
+    }
+    
+    .perfil h2 {
+        padding: 0px;
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: mediumslateblue;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: x-small;
+    }
+    
+    .perfil p {
+        margin: 5px;
+        padding: 5px;
+        font-size: x-small;
+    }
+    
+    .perfil {
+        background-color: lightyellow;
+        font-size: x-large;
+        margin-bottom: 20px;
+        border-radius: 0px;
+        padding: 8px;
+    }
+    
+    .perfil__1 {
+        
+        color: mediumslateblue;
+    }
+    
+    
+    
+    footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        background: linear-gradient(to bottom, palegreen, white);
+        padding: 0px;
+        color: mediumslateblue;
+        border-radius: 0px;
+        font-style: italic;
+        font-size: x-small;
+    }
+ 
+
+}

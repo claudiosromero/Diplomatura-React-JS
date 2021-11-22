@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <script>
+        var numero1;
+        var numero2;
+        var numero3;
+        numero1 = prompt('Ingresar el primer valor');
+        numero2 = prompt('Ingresar el segundo valor');
+        numero3 = prompt('Ingresar el tercer valor');
+
+        numero1 = parseInt(numero1);
+        numero2 = parseInt(numero2);
+        numero3 = parseInt(numero3);
+
+        document.write(numero1);
+        document.write(' Primero ingresado');
+        document.write('<br>');
+        document.write(numero2);
+        document.write(' Segundo ingresado');
+        document.write('<br>');
+        document.write(numero3);
+        document.write(' Tercero ingresado');
+        document.write('<br>');
+
+        if (numero1 > numero2 && numero1 > numero3) {
+            document.write('el numero mayor es ' +
+                numero1);
+        } else if (numero2 > numero3) {
+            document.write('el numero mayor es ' +
+                numero2);
+        } else {
+            document.write('el numero mayor es ' +
+                numero3);
+        }
+    </script>
+</body>
+
+</html>

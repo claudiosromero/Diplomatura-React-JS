@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
+
 <body>
-    
+    <script>
+        var metros;
+        var transporte = ['Pie', 'Bicicleta', 'Colectivo', 'Auto', 'Avion'];
+        metros = prompt('Distancia en Metros a recorrer:');
+        document.write('Para ');
+        document.write(metros);
+        document.write(' Metros se recomienda:');
+        document.write('<br>')
+        if (metros <= 1000) {
+            document.write(transporte[0]);
+            document.write(' Como medio de Transporte')
+        } else if (metros >= 1001 && metros < 10000) {
+            document.write(transporte[1] )
+            document.write(' Como medio de Transporte')
+        } else if (metros >= 10001 && metros < 30000) {
+            document.write(transporte[2])
+            document.write(' Como medio de Transporte')
+        } else if (metros >= 30001 && metros < 100000) {
+            document.write(transporte[3])
+            document.write(' Como medio de Transporte')
+        } else {
+            document.write(transporte[4])
+            document.write(' Como medio de Transporte')
+        }
+    </script>
 </body>
+
 </html>
